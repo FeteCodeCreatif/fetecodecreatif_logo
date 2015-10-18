@@ -15,7 +15,6 @@ Agent jaune;
 Agent magenta;
 Agent blanc;
 
-
 void setup() {
   colorMode(RGB, 255, 255, 255, 100);
   size(200, 200);
