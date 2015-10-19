@@ -17,7 +17,8 @@ var blanc;
 
 function setup() {
   colorMode(RGB, 255, 255, 255);
-  createCanvas(int(w), int(h));
+  var cnv = createCanvas(int(w), int(h));
+  cnv.parent("logo");
   background(255);
   strokeWeight(2);
   
